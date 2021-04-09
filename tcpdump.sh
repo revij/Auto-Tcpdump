@@ -1,6 +1,6 @@
 clear
 echo -e "\033[32;5mAuto Tcpdump is now running \033[0m"
-interface=eth0
+interface=eth0 ## change this
 dumpdir=/root/tcpdump
 capturefile=/root/tcpdump/dogeiana.txt
 
