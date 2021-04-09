@@ -13,6 +13,7 @@ while /bin/true; do
     if [ $pkt -gt 1024 ]; then
          echo "Under Attack! Dumping Packets."
          tcpdump -n -s0 -c 8600 -w $dumpdir/DUMP.`date +"%Y%m%d-%H%M%S"`.cap
+         tshark -i - < "$dumpdir/dump.`date +"%H%M"`.cap" > "dogeiana.txt"
          echo "Packets Dump, Sleeping now"
     sleep 120
  fi
