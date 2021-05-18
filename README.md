@@ -1,8 +1,7 @@
 # Auto-Tcpdump
 Detects DDoS attacks and capture the traffic then dump lol
 ## Background
-
-I didn't test it out yet so lmk if you get errors
+Works best for VPS servers. Once packets are dump you can analysis them 
 
 ## Setup (Ubuntu and Debian)
 ``` sudo apt-get install dos2unix``` 
