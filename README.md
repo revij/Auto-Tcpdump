@@ -6,6 +6,8 @@ Works best for VPS servers. Once packets are dump you can analysis them
 ## Setup (Ubuntu and Debian)
 ``` sudo apt-get install dos2unix``` 
 
+``` sudo apt-get install tshark``` 
+
 ``` sudo apt-get install tcpdump```
 
 ``` sudo apt-get install screen```
